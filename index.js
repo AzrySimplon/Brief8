@@ -55,6 +55,5 @@ const oddHeroes = heroes.filter((hero) => hero.power % 2 !== 0);
 showArray(oddHeroes);
 
 //Challenge 10
-// 👉 Récupère les **héros dont le nom fait plus de 10 caractères**.
 const longNameHeroes = heroes.filter((hero) => hero.name.length > 10);
 showArray(longNameHeroes);
